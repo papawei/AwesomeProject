@@ -2,6 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23ff97a5-7d43-447d-b1e8-e0c245c35d81" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.flowconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.watchmanconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/proguard-rules.pro" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/react.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/java/com/awesomeproject/MainActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/app/src/main/res/values/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradlew" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/gradlew.bat" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/android/settings.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.android.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.ios.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject.xcodeproj/xcshareddata/xcschemes/AwesomeProject.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/AppDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/AppDelegate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/Base.lproj/LaunchScreen.xib" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/Images.xcassets/AppIcon.appiconset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProject/main.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProjectTests/AwesomeProjectTests.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ios/AwesomeProjectTests/Info.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AwesomeProject.iws" />
@@ -178,7 +212,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456973132166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tygjytutyu">
+      <created>1456973261873</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1456973261873</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
