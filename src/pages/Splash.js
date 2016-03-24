@@ -1,22 +1,41 @@
-/**
- * Created by tdzl2_000 on 2015-12-22.
- */
+import React from 'react-native';
+const {
+  Dimensions,
+  Image,
+  InteractionManager,
+  TouchableOpacity,
+  View
+} = React;
 
-import React, {
-  View,
-  Text,
-} from 'react-native';
+import MainContainer from '../containers/MainContainer';
 
-import styles from './Splash.styles';
+var {height, width} = Dimensions.get('window');
 
-export default class Splash extends React.Component {
+class Splash extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  componentDidMount() {
+    const {navigator} = this.props;
+    setTimeout(() => {
+      InteractionManager.runAfterInteractions(() => {
+        navigator.resetTo({
+          component: MainContainer,
+          name: 'Main'
+        });
+      });
+    }, 2000);
+  }
+
   render() {
     return (
-      <View style={styles.centerContainer}>
-        <Text style={styles.title}>
-          Hello, React-Native Starter Kit!
-        </Text>
-      </View>
+      <Image
+        style={{flex: 1, width: width, height: height}}
+        source={require('../img/splash.png')}
+      />
     );
   }
 }
+
+export default Splash;

@@ -4,11 +4,11 @@
 'use strict';
 
 import {combineReducers} from 'redux';
-import index from './index';
-
+import order from './order';
+import shopcar from './shopcar';
 
 const reducer = combineReducers({
-  index
+  order,shopcar
 })
 
 export default reducer;

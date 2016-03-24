@@ -11,7 +11,7 @@ import React, {
 
 import Splash from './pages/Splash';
 
-class App extends React.Component {
+export default class App extends React.Component {
   componentWillMount() {
     if (Platform.OS === 'android') {
       BackAndroid.addEventListener('hardwareBackPress', this.onBackAndroid);
@@ -60,4 +60,6 @@ class App extends React.Component {
     );
   }
 }
+
+
 
