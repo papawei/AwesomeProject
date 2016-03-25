@@ -4,7 +4,7 @@ import React from 'react-native';
 const {
   Component
 } = React;
-import {connect} from 'react-redux';
+// import {connect} from 'react-redux';
 import Main from '../pages/Main';
 
 class MainContainer extends Component {
@@ -18,12 +18,14 @@ class MainContainer extends Component {
     );
   }
 }
+//
+// function mapStateToProps(state) {
+//   const {dbb} = state;
+//   return {
+//     dbb
+//   }
+// }
+//
+// export default connect(mapStateToProps)(MainContainer);
+export default MainContainer;
 
-function mapStateToProps(state) {
-  const {dbb} = state;
-  return {
-    dbb
-  }
-}
-
-export default connect(mapStateToProps)(MainContainer);
