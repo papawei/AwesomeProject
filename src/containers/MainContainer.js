@@ -5,7 +5,7 @@ const {
   Component
 } = React;
 // import {connect} from 'react-redux';
-import Main from '../pages/Main';
+import MainScreen from '../pages/MainScreen';
 
 class MainContainer extends Component {
   componentDidMount() {
@@ -14,7 +14,7 @@ class MainContainer extends Component {
 
   render() {
     return (
-      <Main {...this.props} />
+      <MainScreen {...this.props} />
     );
   }
 }
