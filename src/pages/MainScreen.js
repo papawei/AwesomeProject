@@ -2,6 +2,8 @@
 
 import React from 'react-native';
 import TabNavigator from 'react-native-tab-navigator'
+import Home from './Home'
+import Header from '../components/Header'
 const {
   StyleSheet,
   ListView,
@@ -41,7 +43,7 @@ const PERSONAL_FOCUS = require('../images/tabs/personal_focus.png');
 class MainScreen extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {selectedTab: HOME}
+    this.state = {selectedTab: Home}
   }
 
   componentDidMount() {
@@ -77,7 +79,7 @@ class MainScreen extends React.Component {
         <View style={{flex: 1}}>
           <Header />
           <TabNavigator hidesTabTouch={true} tabBarStyle={styles.tab}>
-            {this._renderTabItem(HOME_NORMAL, HOME_FOCUS, HOME, <HomePage/>)}
+            {this._renderTabItem(HOME_NORMAL, HOME_FOCUS, HOME, <Home/>)}
             {this._renderTabItem(CATEGORY_NORMAL, CATEGORY_FOCUS, CATEGORY, MainScreen._createChildView(CATEGORY))}
             {this._renderTabItem(FAXIAN_NORMAL, FAXIAN_FOCUS, FAXIAN, MainScreen._createChildView(FAXIAN))}
             {this._renderTabItem(CART_NORMAL, CART_FOCUS, CART, MainScreen._createChildView(CART))}
@@ -90,7 +92,7 @@ class MainScreen extends React.Component {
 
 }
 
-export default MainScreen;
+
 const styles = StyleSheet.create({
   tab: {
     height: 52,
@@ -154,6 +156,6 @@ const styles = StyleSheet.create({
 //   }
 // })
 
-Main.propTypes = propTypes;
+MainScreen.propTypes = propTypes;
 
-export default Main;
+export default MainScreen;
