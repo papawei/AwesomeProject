@@ -88,10 +88,7 @@ class MainScreen extends React.Component {
         </View >
     );
   }
-
-
 }
-
 
 const styles = StyleSheet.create({
   tab: {
@@ -106,55 +103,7 @@ const styles = StyleSheet.create({
     marginTop: 12.5
   }
 });
-// let styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     flexDirection: 'column'
-//   },
-//   containerItem: {
-//     flex: 1,
-//     flexDirection: 'row',
-//     justifyContent: 'center',
-//     alignItems: 'center',
-//     backgroundColor: '#fcfcfc',
-//     padding: 10,
-//     borderBottomColor: '#ddd',
-//     borderBottomWidth: 1
-//   },
-//   title: {
-//     flex: 3,
-//     fontSize: 18,
-//     textAlign: 'left',
-//     color: 'black'
-//   },
-//   listView: {
-//     backgroundColor: '#eeeeec'
-//   },
-//   no_data: {
-//     flex: 1,
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//     paddingBottom: 100
-//   },
-//   drawerContent: {
-//     flexDirection: 'row',
-//     alignItems: 'center',
-//     padding: 15,
-//     borderBottomWidth: 1,
-//     borderBottomColor: '#ddd'
-//   },
-//   drawerIcon: {
-//     width: 30,
-//     height: 30,
-//     marginLeft: 5
-//   },
-//   drawerText: {
-//     fontSize: 18,
-//     marginLeft: 15,
-//     textAlign: 'center',
-//     color: 'black'
-//   }
-// })
+
 
 MainScreen.propTypes = propTypes;
 
